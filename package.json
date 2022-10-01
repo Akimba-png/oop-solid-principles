@@ -1,0 +1,15 @@
+{
+  "name": "oop-solid-principles",
+  "version": "1.0.0",
+  "description": "Базовые примеры основных принципов ООП и патернов SOLID",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "oop",
+    "solid"
+  ],
+  "author": "Oleg Akimov",
+  "license": "ISC"
+}
