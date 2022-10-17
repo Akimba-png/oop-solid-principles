@@ -13,9 +13,9 @@ class Transmission {
 class Car {
   engine: Engine;
   transmission: Transmission;
-  constructor(engine: Engine, transmission: Transmission) {
-    this.engine = engine;
-    this.transmission = transmission;
+  constructor() {
+    this.engine = new Engine();
+    this.transmission = new Transmission();
   }
 
   drive() {
@@ -24,11 +24,11 @@ class Car {
   }
 }
 
-const myCar = new Car(new Engine(), new Transmission());
+const myCar = new Car();
 myCar.drive();
 
-// Класс Car включает в себя класс Engine и Transmission
-// При этом экземпляры Engine и Transmission создаются внутри класса Car
-// И отдельно от него существовать не могут.
-// Т.е. при удалении экземпляра Car вместе с ним будут удалены и экземпляры
+// Класс Car включает в себя классы Engine и Transmission
+// При этом инициализация данных классов происходит внутри конструктора Car
+// Данные классы не передаются в Car из вне в виде параметров и отдельно от Car существовать не могут
+// Так же, при удалении экземпляра Car вместе с ним будут удалены и экземпляры
 // Engine и Transmission
