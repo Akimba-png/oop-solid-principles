@@ -1,6 +1,5 @@
 // Single-responsibility principle
 
-
 // bad practice
 class CalorieTracker {
   currentCount: number;
