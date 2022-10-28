@@ -41,7 +41,7 @@ getAccessToDB(new Stranger('Strange'));
 class Personal {
   name: string;
   constructor(name: string) {
-    this.name = name
+    this.name = name;
   }
 }
 
