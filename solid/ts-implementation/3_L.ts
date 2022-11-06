@@ -1,4 +1,4 @@
-// liskov substitution principle
+// Liskov substitution principle
 
 // bad practice
 class Personality {

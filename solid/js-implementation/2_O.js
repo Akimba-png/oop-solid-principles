@@ -1,3 +1,5 @@
+// Open closed principle
+
 // bad practice
 // class Square {
 //   size = null;

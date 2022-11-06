@@ -1,4 +1,4 @@
-// open closed principle
+// Open closed principle
 
 // bad practice
 class Square {

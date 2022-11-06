@@ -1,5 +1,6 @@
-// bad practice
+// Single-responsibility principle
 
+// bad practice
 // class CaloryTracker {
 //   user = null;
 //   currentAmount = 0;
